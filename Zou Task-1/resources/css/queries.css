@@ -1,0 +1,118 @@
+/*-------Big tablet to 1200px------*/
+@media only screen and (max-width:1200px){
+    .text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    h1{
+        width: 65%;
+    }
+    header{
+        background-size:400px 100vh;
+    }
+    .main-nav li:last-child{
+        position: relative;
+        left: 50%;
+    }
+    .main-nav li{
+        display: inline-block;
+        margin-left: 35px;
+    }
+    .progress-line{
+        width: 44%;
+        left: 28%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .text-box-2{
+        
+        top: 30px;
+    }
+}
+/*-------For small Tablets from 768px to 1023px------*/
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 16px;
+    }
+    h1{
+        width: 60%;
+    }
+    h2{
+       width: 75%;
+    }
+    .long-copy{
+    width: 75%;
+    
+   }
+   .main-nav{
+       display: none;
+   }
+   .text-box p{
+    width: 50%;
+    line-height: 20px;
+  }
+   .card{
+       height: 350px;
+   }
+   .inv-text-box{
+    margin-left: 60px;
+    
+  }
+    .inv-text-box p{
+    width: 70%;
+    }
+    .progress-line{
+        width: 60%;
+        left: 20%;
+    }
+
+}
+/*-------For mobiles from 481px to 767px------*/
+@media only screen and (max-width:767px){
+    body{font-size: 14px;}
+    section{padding: 30px 0;}
+    header{
+        background-size:220px 100vh;
+    }
+    .card div p{
+       
+      font-size: 70%;
+      margin-top: 3px;
+    }
+    .card img{
+        width: 100%;
+    }
+    .inv-text-box{
+        
+        text-align: center;
+        
+      }
+      .inv-text-box{
+          font-size: 90%;
+          padding: 0 20%;
+      }
+      .plans h2{
+          margin-left: 0%;
+      }
+      .plans{
+          margin-right: 5px;
+      }
+      .works-text-box p{
+          width: 80%;
+          line-height: 22px;
+          margin-bottom: 10px;
+      }
+      .text-box-2{
+          margin-top: 0;
+          left: 80px;
+          top: 30px;
+      }
+      .text-box-2 p{
+          width: 100%;
+      }
+      .zou-box{
+        width: 30%;
+    }
+  }
+
